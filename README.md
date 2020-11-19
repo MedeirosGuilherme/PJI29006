@@ -90,3 +90,9 @@ Informações para usuário sobre o tempo decorrido;
 Atividade:
 
 **Atividade 1:** Fazer uma descrição textual ou gráfica do funcionamento do sistema.
+
+# Modelagem:
+
+1 - Primeira conversa sobre o trabalho, discutida no dia 19 de Novembro de 2020 entre os membros do grupo sobre o funcionamento de cada ramo do projeto.
+
+[Modelo 1 - Pré Projeto](Modelagem/modelagem1.pdf)
