@@ -158,7 +158,138 @@ Cada diagrama UML oferece uma dimensão do que está sendo projetado e dependend
 Os diagramas definidos pela UML podem ser vistos na figura, e são uma porção deles. Cada um oferecendo uma visão diferente, entretanto, como pode ser visto, existem tantos tipos de diagramas diferentes que fica difícil escolher seu favorito.
 De fato, essa foi a crítica que a versão 2.0 da UML recebeu relativa ao aumento de diagramas propostos, são tantos e tão específicos que o diagrama muitas vezes oferece tão pouca informação que ele se torna irrelevante, atualmente sendo 16 diagramas no total.
 
+> Slide 31: Desenvolvimento de Software - Imagem genérica de um desenvolvedor de software
 
+Qualquer pessoa que tenha tido qualquer experiência com desenvolvimento de software sabe que não é tarefa simples de ser realizada. O processo de desenvolvimento de software é uma tentativa de facilitar ou pelo menos padronizar essa tarefa de forma a deixá-la mais simples e sistemática. 
+
+> Slide 32: Atividades típicas de um processo de desenvolvimento: Imagem genérica processo de desenvolvimento de software
+
+O processo é definido porém aberto, existem obviamente várias maneiras de se abordar uma problemática e várias tarefas necessárias à serem feitas antes, durante e depois da codificação. Entretanto, algumas tarefas são sempre (ou quase sempre) certeiros e necessários, alguns deles serão tratados nos próximos slides..
+
+> Slide 33: Levantamento de requisisto, imagem genérica
+
+Está atrelada à compreensão do problema. Tem objetivo de encontrar e compreender melhor a problemática, assim como garantir a unificação entre a visão dos usuários interessados e dos desenvolvedores.
+
+> Slide 34: Tipos de requisito
+**Definem-se alguns tipos de requisitos diferentes como:**
+
+1. **Requisitos funcionais: Definem a funcionalidade do sistema.**
+
+2. **Requisitos não funcionais: Declaram as características de qualidade que o sistema deve possuir e que estão relacionadas as suas funcionalidades.**
+
+3. **Requisitos normativos: Declaram as restrições impsotas sobre o desenvolvimento do sistema como plataforma tecnológica, aspectos legais, regras de negócio, etc.**
+
+O documento de requisitos é um acordo entre cliente e desenvolvedor, ele garante o que o software deve prover e um software bem desenvolvido é, basicamente, um software que atende aos requisitos definidos nessa sessão. Entretanto, é praticamente impossível pensar em todos os detalhes à priori ao desenvolvimento da aplicação, por isso, é normal haver mudanças acordadas entre usuário e desenvolvedor.
+
+> Slide 35: Análise de Requisitos, imagem genérica
+
+Também é considerada parte da engenharia de requisitos, o processo de análise é basicamente o ato de desmembrar um sistema em seus componentes e estudar como eles funciona e analisar se as necessidades do cliente serão atendidas com o sistema proposto atual.
+
+A fase de análise pode ser subdividida em duas sub fases, a análise de negócio, onde são identificados e modelados os objetos da problemática que farão parte do sistema a ser desenvolvido, e a análise da aplicação, em que o analista verifica os objetos de análise que não fasem parte da problemática, ou seja, que passam despercebidos até pelos usuários, normalmente estão atrelados a algum componente interno à aplicação.
+
+> Slide 36: Projeto, imagem genérica
+
+A fase de projeto é dividida em duas fases bem específicas: O projeto da arquitetura e o projeto detalhado.
+
+A primeiro define-se em distribuir as classes e objetos relacionados do sistema em subsistemas que compreendem todas as funções do projeto, assim como distribuir esses sitemas para cada recurso de hardware disponível, ou seja, identificar os sistemas que devem ser distribuídos e verificar onde eles devem rodar.
+
+A segunda é o modelo de classes do projeto em sí. O projeto do software em sí e realizar diagramas de como o sfotware é disposto sem se preocupar muito com o hardware.
+
+
+> Slide 37: Implementação, imagem genérica
+
+É onde o sistema é codificado, onde acontece a tradução do planejamento para código.
+
+> Slide 38: Testes, imagem genérica
+
+É o ato de testar, o nome diz por sí. É o ato de botar o que foi produzido para rodar e tentar identificar erros. Esses testes devem ser feitos considerando toda e qualquer parte do sistema, desde a definição e disposição das classes, verificar interfaces, entradas e retornos de dados, verificar se os dados retornados estão corretos e fazem sentido, verificar a coordenação e a integralização do hardware com o software desenvolvido,e tc.
+
+> Slide 39: Implantação, imagem genérica
+
+Onde o sistema é empacotado, distribuído e instalado no ambiente dos usuários. Essa fase também é encarregada de qualquer funcionalidade que venha antes do uso, como treinamento dos usuários, escrita dos manuais, carregamento de dados, etc.
+
+> Slide 40: A equipe, imagem genérica
+
+É impossível para um profissional só conhecer com excelência necessária tudo especificamente envolvido no desenvolvimento de um produto. Uma equipe deve ser montada onde cada um possui suas virtudes e deveres, onde cada indivíduo tem autonomia para dar uma escapada e ajudar em uma outra fase do projeto, mas deve se concentrar em seus próprios domínios.
+
+> Slide 41: Gerente de projeto
+
+É quem coordenada as atividades, cria orçamento, estratégias, prazos, gerencia as equipes de desenvolvimento, acompanha as atividades, verifica recursos alocados, escalona a equipe, contrata profissionais, etc.
+
+> Slide 42: Analista
+
+É quem possui conhecimento do domínio do negócio, da área em que o produto será aplicado. Devem ter boa comunicação para conversar com os especialistas do domínio, com objetivo de entender as necessidades dos clientes.
+
+> Slide 43: Projetista
+
+É um profissional da área de programação que deve avaliar se as soluções cabem dentro do problema resultante da análise e gerar as especificades de uma solução computacional detalhada. Existem projetistas de cada área de um software, interface, banco de dados, etc.
+
+> Slide 44: Arquitetos de Software
+
+Ele compõe o software em mini camadas, toma as decisões neste sentido da estruturação do produto.
+
+> Slide 45: Programadores
+
+É quem escreve o código. Simples. É quem implementa o que foi planejado. O texto decorre prolixamente sobre essas informações tentando diferenciar os programadores de analistas, quando a diferença é bastante óbvia e é possível identificar pela definição de cada uma das atividades empenhadas por esses profissionais.
+Uma empresa pode ter programadores em mais de um linguagem, o que é óbvio, já que linguagem de programação são coisas complexas e dificilmente uma pessoa será especialista em várias delas.
+
+> Slide 46: Especialistas do domínio 
+
+Também conhecido como especialista de negócio, ele é quem é entrevistado pelo analista para retirar os requisitos do sistema.
+
+> Slide 47: Ciclo de vida
+
+O ciclo de vida é a capacidade de um código ser duradouro e continuar resolvendo problemas conforme o tempo passa, assim como a sua capacidade de ser facilmente modificado de forma a manter sua usabilidade e abrangência.
+
+> Slide 48: Modelo de ciclo de vida iterativo e Incremental
+
+Contrário ao sistema de cascatas que era utilizado antes, este modelo cria ciclos de desenvolvimento como podem ser vistos na figura, onde requisitos são levantados, são realizadas as análises, o projeto é criado, implementado, testado e implantado, e somente aí um analista levantará novos requisitos para que eles possam ser adicionados a aplicação.
+
+Isso faz com que o código tenha que ser estruturado de uma forma que permita essa adição, um software completamente fechado torna impossível a adição de qualquer coisa e tem sua longevidade comprometida.
+
+Para isso, o bom uso de diagramas é necessário. Em um modelo de ciclo de vida iterativo e incremental, os artefatos de softwares construídos com uso da UML evoluem à medida que as iterações do processo são realizadas.
+
+Cada novo conjunto de requisitos necessita a aprimoração do diagrama do projeto já implantado anterior.
+
+> Slide 49: Prototipagem
+
+É a elaboração do projeto com apenas algumas das especificações reconhecidas e com a abertura para implementação de novas, é através do protótipo que as validações com clientes e especialistas de negócio acontecerão.
+
+> Slide 50: Mecanismos de uso geral
+
+Este capítulo se ateve a explicar o que são mecanismos de uso geral, apesar de não explicar exatamente o que eles são no geral até agora, ele apenas detalha quais são e o que são alguns deles:
+
+Apenas depois de ler o texto dos exemplos ficou compreensível que são tipos de figuras/gráficos que podem ser usados em diagramas UML. Recursos que são de uso para facilitar a compreensão dos diagramas. 
+
+> Slide 51: Estereótipos -> Usar exemplo do próprio texto
+
+São figuras e/ou textos que dão a ideia daquilo que está sendo usado. Estão entre eles, por exemplo, o muro com fogo, que é super reconhecido como um firewall. Ao ser colocado em um diagrama, explicações maiores não são necessárias considerando que quem trabalhará com o diagrama sabe o que é um firewall.
+
+O uso desses recursos obviamente dependem do contexto e quem utilizará o diagrama deve conhecer cada um desses estereótipos.
+
+> Slide 52: Notas explicativas -> Usar exemplo do próprio texto
+
+É uma nota que esclarece algo. Alguma figura ou parte do diagrama que ficou sem clareza e necessita de uma explicação maior pode ser enriquecido com uma nota explicativa. Normalmente tem a forma que pode ser vista na imagem, de um papel com uma dobra em cima, mas qualquer outro tipo pode ser utilizado se acordado entre as partes do desenvolvimento.
+
+> Slide 53: Etiquetas valorada
+
+São utilizadas para garantir propriedades não pré definidias para determinados elementos de diagramas. Dar um valor a uma variável para exemplificar uma transação, por exemplo.
+
+> Slide 54: Restrições:
+
+Como UML é basicamente um conjunto de padrões que facilitam a universalização da produção de diagramas para a produção e desenvolvimento de software, cada signo gráfico possui um significado bem definido que é implícito para quem estudou o tema.
+
+As restrições permitem estender ou alterar a semântica natural de um elemento gráfico. Ela deve ser obviamente acordada entre as partes e, levando em consideração que o livro é bem peculiar na definição de cada pequeno padrão de cada entidade do projeto de sistemas com UML, é curioso que ele defina que tudo possa ser modificado através de apenas essa aplicação. Mas o meu entendimento do que foi colocado é esse, que ele restringe o funcionamento de um simbolismo de diagrama, modificando-o.
+
+> Slide 55: Pacotes
+
+O símbolo utilizado é o de uma pasta com aba, e serve para agrupar elementos que possuam alguma relação. Pacotes podem inclusive conter outros pacotes e por aí vai.
+
+> Slide 56: OCL
+
+É a linguagem de restrição de objetos. É utilizada para definir expressões de navegação entre objetos, expressões lógicas, condições, etc.
+
+Fim
 
 
 
